@@ -23,7 +23,7 @@ npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 
 1. Clone this repository.
 2. Compile: `mix deps.get && mix compile && cd assets && npm install --unsafe-perm && cd -`
-3. Start 'er up: `elixir --sname visualixir -S mix phx.server`
+3. Start 'er up: `elixir --sname visualixir -S mix phx.server`. iex --name visualixir@127.0.0.1 -S mix phx.server
 4. Navigate to [the GUI](http://0.0.0.0:4000)
 
 If you want to visualize other BEAM nodes, you'll need to start them up with the `--sname <unique_name_here>` option.
