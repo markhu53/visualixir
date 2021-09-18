@@ -13,9 +13,13 @@ Huge gifs are worth a thousand words:
 ![Msg Seq 2](https://raw.githubusercontent.com/koudelka/visualixir/master/doc/msg_seq_2.gif)
 
 ## Getting Going
+asdf install
+$ sudo rm -rf $(xcode-select -print-path)
+$ xcode-select --install
+npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 
 1. Clone this repository.
-2. Compile: `mix deps.get && mix compile && cd assets && npm install && cd -`
+2. Compile: `mix deps.get && mix compile && cd assets && npm install --unsafe-perm && cd -`
 3. Start 'er up: `elixir --sname visualixir -S mix phx.server`
 4. Navigate to [the GUI](http://0.0.0.0:4000)
 
