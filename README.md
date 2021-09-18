@@ -14,8 +14,11 @@ Huge gifs are worth a thousand words:
 
 ## Getting Going
 asdf install
+
 $ sudo rm -rf $(xcode-select -print-path)
+
 $ xcode-select --install
+
 npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 
 1. Clone this repository.
